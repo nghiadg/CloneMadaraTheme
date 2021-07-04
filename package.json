@@ -1,0 +1,23 @@
+{
+  "name": "manga-site-htm-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghiadg/CloneMadaraTheme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nghiadg/CloneMadaraTheme/issues"
+  },
+  "homepage": "https://github.com/nghiadg/CloneMadaraTheme#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
