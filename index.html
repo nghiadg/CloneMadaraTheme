@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+      integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="https://live.mangabooth.com/wp-content/themes/madara/images/logo.png"
+        alt="logo"
+        class="header__logo"
+      />
+      <ul class="nav">
+        <li class="nav__item nav__item--multi">
+          <a href="#">
+            Home <i class="fa fa-chevron-down nav__chevron-down"></i>
+          </a>
+          <ul class="sub-nav">
+            <li class="sub-nav__item"><a href="#">Home 2</a></li>
+            <li class="sub-nav__item"><a href="#">Home 2</a></li>
+          </ul>
+        </li>
+        <li class="nav__item nav__item--multi">
+          <a href="#">
+            Manga <i class="fa fa-chevron-down nav__chevron-down"></i>
+          </a>
+          <ul class="sub-nav">
+            <li class="sub-nav__item"><a href="#">Manga 2</a></li>
+            <li class="sub-nav__item"><a href="#">Manga 2</a></li>
+          </ul>
+        </li>
+        <li class="nav__item"><a href="#">Blog</a></li>
+        <li class="nav__item"><a href="#">About us</a></li>
+        <li class="nav__item">
+          <a href="#">
+            <i class="fa fa-shopping-bag"></i> Shop
+            <i class="fa fa-chevron-down nav__chevron-down"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="header__search-icon">
+        <i class="fa fa-search"></i>
+      </div>
+      <a href="" class="search-advanced">Advanced</a>
+      <div class="header__menu-icon">
+        <i class="fa fa-bars"></i>
+      </div>
+    </header>
+    <div class="category">
+      <ul class="category__list">
+        <li class="category__item"><a href="#">Romance</a></li>
+        <li class="category__item"><a href="#">Comedy</a></li>
+        <li class="category__item"><a href="#">Shoujo</a></li>
+        <li class="category__item"><a href="#">Drama</a></li>
+        <li class="category__item"><a href="#">School life</a></li>
+        <li class="category__item"><a href="#">Shounen</a></li>
+        <li class="category__item"><a href="#">Action</a></li>
+        <li class="category__item">
+          <a href="#">More <i class="fa fa-caret-right"></i></a>
+        </li>
+      </ul>
+      <i class="fa fa-ellipsis-v category__more-icon"></i>
+      <div class="auth">
+        <div class="auth__button">Sign in</div>
+        <div class="auth__button">Sign up</div>
+      </div>
+    </div>
+    <div class="manga-slider">
+      <div class="manga-slider__item">
+        <a href="#">
+          <div class="manga-slider__thumb">
+            <img
+              src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-561840-642x320.jpg"
+              alt="new manga"
+            />
+            <h2 class="manga-slider__title">Manga Text Chapter</h2>
+            <span class="manga-slider__tag manga-slider__tag--new">New</span>
+            <div class="manga-slider__overlay"></div>
+          </div>
+        </a>
+      </div>
+      <div class="manga-slider__item">
+        <a href="#">
+          <div class="manga-slider__thumb">
+            <img
+              src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-561840-642x320.jpg"
+              alt="new manga"
+            />
+            <h2 class="manga-slider__title">Manga Text Chapter</h2>
+            <span class="manga-slider__tag manga-slider__tag--new">New</span>
+            <div class="manga-slider__overlay"></div>
+          </div>
+        </a>
+      </div>
+      <div class="manga-slider__item">
+        <a href="#">
+          <div class="manga-slider__thumb">
+            <img
+              src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-561840-642x320.jpg"
+              alt="new manga"
+            />
+            <h2 class="manga-slider__title">Manga Text Chapter</h2>
+            <span class="manga-slider__tag manga-slider__tag--new">New</span>
+            <div class="manga-slider__overlay"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="manga-popular-slider">
+      <div class="container">
+        <div class="manga-popular-slider__wrapper">
+          <h2 class="manga-heading manga-popular-slider__heading">
+            <i class="fa fa-bolt"></i>Popular manga updates
+          </h2>
+          <div class="manga-popular-slider__list">
+            <div>
+              <div class="manga-popular-slider__container">
+                <div class="manga-popular-slider__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-540070-193x278.jpg"
+                    alt="manga popular thumb"
+                  />
+                </div>
+                <div class="manga-popular-slider__content">
+                  <h4 class="manga-popular-slider__title">
+                    <a href="#">Dakimi Katawi Yakimimono Hajimazu Kyousou</a>
+                  </h4>
+                  <span class="manga-popular-slider__date"
+                    >October 11, 2021</span
+                  >
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#"> Chapter 15</a>
+                  </div>
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#">Chapter 14</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="manga-popular-slider__container">
+                <div class="manga-popular-slider__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-540070-193x278.jpg"
+                    alt="manga popular thumb"
+                  />
+                </div>
+                <div class="manga-popular-slider__content">
+                  <h4 class="manga-popular-slider__title">
+                    <a href="#">Dakimi Katawi Yakimimono Hajimazu Kyousou</a>
+                  </h4>
+                  <span class="manga-popular-slider__date"
+                    >October 11, 2021</span
+                  >
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#"> Chapter 15</a>
+                  </div>
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#">Chapter 14</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="manga-popular-slider__container">
+                <div class="manga-popular-slider__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-540070-193x278.jpg"
+                    alt="manga popular thumb"
+                  />
+                </div>
+                <div class="manga-popular-slider__content">
+                  <h4 class="manga-popular-slider__title">
+                    <a href="#">Dakimi Katawi Yakimimono Hajimazu Kyousou</a>
+                  </h4>
+                  <span class="manga-popular-slider__date"
+                    >October 11, 2021</span
+                  >
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#"> Chapter 15</a>
+                  </div>
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#">Chapter 14</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="manga-popular-slider__container">
+                <div class="manga-popular-slider__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-540070-193x278.jpg"
+                    alt="manga popular thumb"
+                  />
+                </div>
+                <div class="manga-popular-slider__content">
+                  <h4 class="manga-popular-slider__title">
+                    <a href="#">Dakimi Katawi Yakimimono Hajimazu Kyousou</a>
+                  </h4>
+                  <span class="manga-popular-slider__date"
+                    >October 11, 2021</span
+                  >
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#"> Chapter 15</a>
+                  </div>
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#">Chapter 14</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="manga-popular-slider__container">
+                <div class="manga-popular-slider__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-540070-193x278.jpg"
+                    alt="manga popular thumb"
+                  />
+                </div>
+                <div class="manga-popular-slider__content">
+                  <h4 class="manga-popular-slider__title">
+                    <a href="#">Dakimi Katawi Yakimimono Hajimazu Kyousou</a>
+                  </h4>
+                  <span class="manga-popular-slider__date"
+                    >October 11, 2021</span
+                  >
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#"> Chapter 15</a>
+                  </div>
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#">Chapter 14</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="manga-popular-slider__container">
+                <div class="manga-popular-slider__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-540070-193x278.jpg"
+                    alt="manga popular thumb"
+                  />
+                </div>
+                <div class="manga-popular-slider__content">
+                  <h4 class="manga-popular-slider__title">
+                    <a href="#">Dakimi Katawi Yakimimono Hajimazu Kyousou</a>
+                  </h4>
+                  <span class="manga-popular-slider__date"
+                    >October 11, 2021</span
+                  >
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#"> Chapter 15</a>
+                  </div>
+                  <div class="manga-popular-slider__chapter-button">
+                    <a href="#">Chapter 14</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container home-main">
+      <div class="manga-latest">
+        <div class="ads">
+          <img
+            src="https://live.mangabooth.com/wp-content/uploads/2017/10/ads-1.jpg"
+            alt="ads"
+          />
+        </div>
+        <h2 class="manga-heading manga-heading--line-bottom heading-latest">
+          <i class="fa fa-star"></i>Latest manga updates
+        </h2>
+        <div class="manga">
+          <ul class="manga__list">
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+            <li class="manga__item">
+              <div class="manga__thumb">
+                <div class="manga__overlay"></div>
+                <img
+                  src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                  alt=""
+                />
+              </div>
+
+              <div class="manga__title">
+                <span class="manga__tag">New</span>
+                <h3>
+                  <a href="#">Manga Video Chapters Manga Video Chapters</a>
+                </h3>
+              </div>
+              <div class="manga__rating">
+                <ul class="rating">
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="fas fa-star-half-alt active"></i>
+                  </li>
+                  <li class="rating__item">
+                    <i class="far fa-star"></i>
+                  </li>
+                </ul>
+                <span>4.1</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+              <div class="manga__chapter">
+                <span><a href="#">Chapter 3</a></span>
+                <span>May 10, 2021</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="button-more">
+          View more
+          <i class="fa fa-caret-down"></i>
+        </div>
+        <div class="ads">
+          <img
+            src="https://live.mangabooth.com/wp-content/uploads/2017/10/ads-1.jpg"
+            alt="ads"
+          />
+        </div>
+      </div>
+      <div class="right-content">
+        <div class="search">
+          <span class="heading-caret">Search manga</span>
+          <form class="search__form">
+            <div class="search__form-group">
+              <input type="text" class="search__input" />
+              <i class="fa fa-search search__icon"></i>
+            </div>
+          </form>
+        </div>
+        <div class="reading-history">
+          <div class="heading-caret">Reading history</div>
+          <div class="reading-history__list">
+            <span class="reading-history__empty"
+              >You don't have anything in histories</span
+            >
+          </div>
+        </div>
+        <div class="manga-popular">
+          <div class="heading-caret manga-popular__heading">Popular manga</div>
+          <div class="manga-side">
+            <ul class="manga-side__list">
+              <li class="manga-side__item">
+                <a href="#" class="manga-side__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="manga-side__content">
+                  <h4 class="manga-side__title">
+                    <a href="#">Manga video chapters</a>
+                  </h4>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                </div>
+              </li>
+              <li class="manga-side__item">
+                <a href="#" class="manga-side__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="manga-side__content">
+                  <h4 class="manga-side__title">
+                    <a href="#">Manga video chapters</a>
+                  </h4>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                </div>
+              </li>
+              <li class="manga-side__item">
+                <a href="#" class="manga-side__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="manga-side__content">
+                  <h4 class="manga-side__title">
+                    <a href="#">Manga video chapters</a>
+                  </h4>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                </div>
+              </li>
+              <li class="manga-side__item">
+                <a href="#" class="manga-side__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="manga-side__content">
+                  <h4 class="manga-side__title">
+                    <a href="#">Manga video chapters</a>
+                  </h4>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                </div>
+              </li>
+              <li class="manga-side__item">
+                <a href="#" class="manga-side__thumb">
+                  <img
+                    src="https://live.mangabooth.com/wp-content/uploads/2017/10/wallhaven-550105-175x238.jpg"
+                    alt=""
+                  />
+                </a>
+                <div class="manga-side__content">
+                  <h4 class="manga-side__title">
+                    <a href="#">Manga video chapters</a>
+                  </h4>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                  <div class="manga-side__chapter">
+                    <span>Chapter 2</span>
+                    <span>May 1, 2021</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="manga-popular__button-more">
+              Here for more Popular Manga
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="browes-manga">
+      <div class="container">
+        <span class="heading-caret browes-manga__heading">Browes manga by</span>
+        <ul class="browes-manga__list">
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+          <li class="browes-manga__item">
+            <a href="#"><i class="fa fa-caret-right"></i>Action</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="ads">
+          <img
+            src="https://live.mangabooth.com/wp-content/uploads/2017/10/ads-1.jpg"
+            alt="ads"
+          />
+        </div>
+        <div class="social">
+          <ul class="social__list">
+            <li class="social__item"><i class="fab fa-facebook-f"></i></li>
+            <li class="social__item"><i class="fab fa-twitter"></i></li>
+            <li class="social__item"><i class="fab fa-youtube"></i></li>
+          </ul>
+        </div>
+        <ul class="footer__nav">
+          <li>Home</li>
+          <li>Blog</li>
+          <li>Contact us</li>
+          <li>About us</li>
+        </ul>
+        <span>© 2021 Duong Trong Nghia. All rights reserved</span>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="./js/index.js"></script>
+</html>
